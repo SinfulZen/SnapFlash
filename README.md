@@ -1,10 +1,11 @@
 ### About
-SnapFlash is a modification for the SnapChat app (Android). It brings exended customisation and functionality to the app, allowing Users to get the most out of it and push it to its limits. SnapFlash comes in several forms:
-
-- Manager application: A separate application that bridges / syncs the features and changes to the SnapChat application.
-- Core: The core features of SnapFlash without a GUI.
-- Patches: Singular patches that can be applied to the SnapChat application manually.
-- Standalone application (SnapChat): All features added to the SnapChat APK, which can be accessed in-app.
+> [!NOTE]
+> SnapFlash is a modification for the SnapChat app (Android). It brings exended customisation and functionality to the app, allowing Users to get the most out of it and push it to its > limits. SnapFlash comes in several forms:
+> 
+> - Manager application: A separate application that bridges / syncs the features and changes to the SnapChat application.
+> - Core: The core features of SnapFlash without a GUI.
+> - Patches: Singular patches that can be applied to the SnapChat application manually.
+> - Standalone application (SnapChat): All features added to the SnapChat APK, which can be accessed in-app.
 
 ### Features
 This section will be updated soon!
@@ -13,6 +14,8 @@ This section will be updated soon!
 This section will be updated soon!
 
 ### Support & Testing
+> [!IMPORTANT]
+> This section will be updated soon!
 
 ### Notes
 - Currently, only the test designs for the Manager are public. The actual Manager and files will be released once this repo hits 100 stars.
