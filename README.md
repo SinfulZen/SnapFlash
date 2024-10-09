@@ -23,4 +23,8 @@ This section will be updated soon!
 This section will be updated soon!
 
 ### Contact
-This section will be updated soon!
+- `Facebook (will be updated soon)`
+- `Instagram (will be updated soon)`
+- `WhatsApp (will be updated soon)`
+- `Discord (will be updated soon)`
+- `Gmail (will be updated soon)`
