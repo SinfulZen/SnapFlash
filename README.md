@@ -18,8 +18,11 @@ This section will be updated soon!
 - Currently, only the test designs for the Manager are public. The actual Manager and files will be released once this repo hits 100 stars.
 
 ### Warnings
-> [!WARNING] The SZ Developments Team ARE NOT responsible for anything that happens to Your device or SnapChat account.  
-> [!WARNING] Please refer to the info above on which versions of SnapChat are safe to use (read carefully)! We ARE NOT responsible for Your incapability to read or follow steps properly.  
+> [!WARNING]
+> The SZ Developments Team ARE NOT responsible for anything that happens to Your device or SnapChat account.
+
+> [!WARNING]
+> Please refer to the info above on which versions of SnapChat are safe to use (read carefully)! We ARE NOT responsible for Your incapability to read or follow steps properly.  
 
 ### FAQ
 This section will be updated soon!
