@@ -1,0 +1,9 @@
+application_name: "SnapFlash"
+application_type: executable
+application_extension: apk
+application_size: GetAfterInstalled
+application_version: 1.0.0 (Universal) , WebView
+application_build: niotron-debug_test-100
+application_signed: AuthKey_1=SinfulZenDevelopments
+application_id: GenerateAfterInstalled
+application_author: SinfulZenDevelopments

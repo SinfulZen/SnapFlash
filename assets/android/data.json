@@ -1,0 +1,10 @@
+{
+  "websiteDetails": {
+    "websiteName": "SnapFlash",
+    "websiteDescription": "Test designs for SnapFlash, a private SnapChat modification for Android.",
+    "keywords": ["Test, Design, SnapFlash, Private, SnapChat, Modification, Android"],
+    "defaultTheme": "dark",
+    "websiteURL": "https://sinfulzen.github.io/SnapFlash",
+    "favIcon": "https://sinfulzen.github.io/SnapFlash/assets/images/branding/icon.ico"
+  }
+}

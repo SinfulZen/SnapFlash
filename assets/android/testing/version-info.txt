@@ -1,0 +1,4 @@
+import version: Universal
+framework version: Universal
+application version: Universal
+core version: Universal

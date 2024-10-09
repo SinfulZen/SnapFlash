@@ -1,0 +1,4 @@
+GitHub username: SinfulZen
+GitHub ID: GetViaGitHubURL
+GitHub login ID: GetViaAuthDetailsViaURL
+GitHub login password: GetViaAuthDetailsViaURL
