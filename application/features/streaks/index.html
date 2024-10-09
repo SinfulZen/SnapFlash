@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<!-- META -->
+<head>
+    
+<title>⚡ SnapFlash</title>
+<meta property="og:site_name" content="SnapFlash">
+<meta name="description" content="Test designs for SnapFlash, a private SnapChat modification for Android.">
+<meta name="keywords" content="Test, Design, SnapFlash, Private, SnapChat, Modification, Android">
+<meta name="theme-color" content="#141414">
+<meta property="og:url" content="https://sinfulzen.github.io/SnapFlash">
+<link rel="icon" href="https://sinfulzen.github.io/SnapFlash/assets/images/branding/icon.ico" type="image/x-icon">
+    
+</head>
+
+<!-- MOBILE LAYOUT -->
+<html>
+<head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: none;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mobile {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .desktop {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function detectDevice() {
+            var width = window.innerWidth;
+            var body = document.body;
+
+            if (width <= 768) {
+                body.className = 'mobile';
+            } else {
+                body.className = 'desktop';
+            }
+        }
+
+        window.onload = detectDevice;
+        window.onresize = detectDevice;
+    </script>
+    
+</head>
+</html>
+
+<!-- SCROLLBAR -->
+<html>
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: none;
+            color: white;
+        }
+
+        .content {
+            height: 200vh;
+            padding: 20px;
+            background-color: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            display: none;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, lightblue, #5d3fd3);
+            border-radius: 10px;
+        }
+
+        body.scrollable ::-webkit-scrollbar {
+            display: block;
+        }
+    </style>
+
+    <script>
+        function checkScrollable() {
+
+            if (document.body.scrollHeight > window.innerHeight) {
+                document.body.classList.add('scrollable');
+            } else {
+                document.body.classList.remove('scrollable');
+            }
+        }
+
+        window.onload = checkScrollable;
+        window.onresize = checkScrollable;
+    </script>
+    
+</head>
+</html>
+
+<!-- HIGHLIGHTING DISABLED -->
+<html>
+<head>
+
+    <style>
+        *, img, png, jpg, jpeg, svg, ico {
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+        }
+    </style>
+    
+</head>
+</html>
+
+<!-- BACKGROUND -->
+<html>
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #0b0e1a;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .purple-circle {
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #5d3fd3, transparent);
+            border-radius: 50%;
+            animation: pulse 6s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+    
+<body>
+    <div class="purple-circle"></div>
+</body>
+    
+</html>
+
+<!-- MAIN -->
+<html>
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: none;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    
+</head>
+    
+<body>
+    <h3>This is where the main code goes (based on the page).</h3>
+</body>
+    
+</html>
+
+<!-- NAVIGATION -->
+<html>
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #1e1e1e;
+            border: 3px solid #5d3fd3;
+            border-radius: 50px;
+            width: 90%;
+            max-width: 700px;
+            padding: 15px;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        .icon:active,
+        .icon:hover {
+            transform: scale(0.9);
+        }
+
+        .icon-container {
+            position: relative;
+        }
+
+        .ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border: 2px solid #5d3fd3;
+            border-radius: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: transform 0.3s;
+            pointer-events: none;
+        }
+
+        .icon:active + .ring,
+        .icon:hover + .ring {
+            transform: translate(-50%, -50%) scale(1);
+        }
+    </style>
+    
+</head>
+    
+<body>
+    <div class="navbar">
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Media" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Features" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Social" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Home" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Scripting" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Store" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+        <div class="icon-container">
+            <img class="icon" src="#" alt="Management" onclick="window.location.href='#'">
+            <div class="ring"></div>
+        </div>
+    </div>
+</body>
+    
+</html>
